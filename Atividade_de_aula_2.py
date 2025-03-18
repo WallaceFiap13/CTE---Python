@@ -1,3 +1,5 @@
+# Declaração de números inteiros
+
 print("\n")
 print("Insira os números x, y & z e obtenha a soma")
 

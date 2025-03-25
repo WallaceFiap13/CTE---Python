@@ -9,4 +9,4 @@ if aprovado == True:
     print("Receba!!")
 else:
     print("\n")
-    print("Agora vai entrar o Grosso"
+    print("Agora vai entrar o Grosso")

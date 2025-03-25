@@ -11,3 +11,6 @@ soma=x+y+z
 
 print("\n")
 print(f"A soma é = {soma:.2f}")
+
+# f" inicia o texto
+# 2f}" = Formatado com duas casas decimais

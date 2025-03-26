@@ -23,6 +23,3 @@ z=7
 soma=x+y+z
 
 print(soma)
-
-
-vamo ve se funciona esse carai

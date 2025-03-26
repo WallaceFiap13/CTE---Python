@@ -10,7 +10,6 @@ z=int(input("Número z = "))
 soma=x+y+z
 
 print("\n")
-print("A soma é:")
+print(f"A soma é: {soma}")
 
-print("\n")
-print(soma)
+# f" inicia o texto quando se quer printar uma variável + string

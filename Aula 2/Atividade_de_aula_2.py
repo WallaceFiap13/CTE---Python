@@ -1,16 +1,11 @@
 #Operadores de Cálculos
 
-print("\n")
-nota = float(input("Insira sua Nota:"))
+nota = float(input("\nInsira sua Nota: "))
 media = 6
 aprovado = nota >= media
 
 if aprovado == True:
-    print("\n")
-    print("Receba!!")
-    print("\n")
+    print("\nReceba!!\n")
+   
 else:
-    print("\n")
-    print("Agora vai entrar o Grosso")
-    print("\n")
-    
+    print("\nAgora vai entrar o Grosso!!!\n")

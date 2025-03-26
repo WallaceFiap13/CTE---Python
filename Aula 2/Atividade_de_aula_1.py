@@ -1,16 +1,14 @@
 # Declaração de números váriáveis com limitação
 
-print("\n")
-print("Insira os números x, y & z e obtenha a soma")
+print("\nInsira números quebrados para x, y & z e obtenha a soma")
 
-x=float(input("Número X = "))
-y=float(input("Número y = "))
-z=float(input("Número z = "))
+x=float(input("\nNúmero X = "))
+y=float(input("\nNúmero y = "))
+z=float(input("\nNúmero z = "))
 
 soma=x+y+z
 
-print("\n")
-print(f"A soma é = {soma:.2f}")
+print(f"\nA soma é = {soma:.2f}\n")
 
 # f" inicia o texto
 # 2f}" = Formatado com duas casas decimais

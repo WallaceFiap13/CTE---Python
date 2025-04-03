@@ -4,13 +4,13 @@ num_a = int(input("\nInsira o primeiro número = "))
 num_b = int(input("Insira o segundo número = "))
 
 if operacao == "Soma":
-    print(f"\nO resultado é = {num_a + num_b}")
+    print(f"\nO resultado é = {num_a + num_b}\n")
 
 if operacao == "Subtração":
-    print(f"\nO resultado é = {num_a - num_b}")
+    print(f"\nO resultado é = {num_a - num_b}\n")
 
 if operacao == "Multiplicação":
-    print(f"\nO resultado é = {num_a * num_b}")
+    print(f"\nO resultado é = {num_a * num_b}\n")
 
 if operacao == "Divisão":
-    print(f"\nO resultado é = {num_a / num_b}")
+    print(f"\nO resultado é = {num_a / num_b}\n")

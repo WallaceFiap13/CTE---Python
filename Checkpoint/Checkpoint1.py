@@ -1,4 +1,4 @@
-# Wallace Queiroz de Lima - RM566217
+# Wallace Queiroz de Lima - RM566217 #
 
 print("\nPara saber sua Média Semestral, digite suas seguintes notas:\n")
 

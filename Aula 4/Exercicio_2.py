@@ -1,4 +1,4 @@
-x = 1
+x = 50
 print(x)
 
 while x < 100:

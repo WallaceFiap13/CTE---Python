@@ -100,6 +100,27 @@ while i < len(intensidade):
         min_intensidade = intensidade[i]
     i += 1
 
+max_frequencia = frequencia[0]
+min_frequencia = frequencia[0]
+
+while f < len(frequencia):
+    if frequencia[f] > max_frequencia:
+        max_frequencia = frequencia[f]
+    if frequencia[f] < min_frequencia:
+        min_frequencia = frequencia[f]
+    f += 1
+
+max_duracao = duracao[0]
+min_duracao = duracao[0]
+
+while d < len(duracao):
+    if duracao[d] > max_duracao:
+        max_duracao = duracao[d]
+    if duracao[d] < min_duracao:
+        min_duracao = duracao[d]
+    d += 1
+
+# Tendencia da Intensidade
 
 # Prints
 total_leituras = len(intensidade)
@@ -117,3 +138,12 @@ print(f"{md_duracao}")
 print(f"{dp_intensidade}")
 print(f"{dp_frequencia}")
 print(f"{dp_duracao}")
+
+print(f"{max_intensidade}")
+print(f"{min_intensidade}")
+
+print(f"{max_frequencia}")
+print(f"{min_frequencia}")
+
+print(f"{max_duracao}")
+print(f"{min_duracao}")

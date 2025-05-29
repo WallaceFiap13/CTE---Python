@@ -1,3 +1,5 @@
+# Link do Vídeo - 
+# Wallace Queiroz de Lima - RM566217
 
 # Contadores
 n_leituras = 0
@@ -107,6 +109,7 @@ while d < len(duracao):
 dp_duracao = ((somaq_duracao/len(duracao)) ** (1/2))
 
     # Estatísticas
+print("")
 print("\n========================================")
 print("          Estatísticas Gerais           ")
 print("========================================")
@@ -121,7 +124,7 @@ print(f"Desvio Padrão : {dp_frequencia:.2f} Hz")
 
 print("\n----------- Duração do Ruído -----------")
 print(f"Média         : {md_duracao:.2f} s")
-print(f"Desvio Padrão : {dp_duracao:.2f} s")
+print(f"Desvio Padrão : {dp_duracao:.2f} s\n")
 
 
 # Estado Geral do Ambiente
@@ -133,9 +136,9 @@ print("        Estado Geral do Ambiente        ")
 print("========================================")
 
 if porcentagem_critica > 40:
-    print("\nEstado Geral: RISCO ELEVADO")
+    print("\nEstado Geral: RISCO ELEVADO\n")
 else:
-    print("\nEstado Geral: Monitoramento Normal")
+    print("\nEstado Geral: Monitoramento Normal\n")
 
 
 # Análise Histórica
@@ -191,7 +194,7 @@ print(f"Mínimo : {min_frequencia} Hz")
 
 print("\n----------- Duração do Ruído -----------")
 print(f"Máximo : {max_duracao} s")
-print(f"Mínimo : {min_duracao} s")
+print(f"Mínimo : {min_duracao} s\n")
 
     # Ajusta Contadores
 i = 1
@@ -209,8 +212,8 @@ print("    Tendência de Intensidade Sonora     ")
 print("========================================")
 
 if acrescimo > decrescimo:
-    print("\nTendência de ALTA na Intensidade Sonora")
+    print("\nTendência de ALTA na Intensidade Sonora\n")
 elif decrescimo > acrescimo:
-    print("\nTendência de BAIXA na Intensidade Sonora")
+    print("\nTendência de BAIXA na Intensidade Sonora\n")
 else:
     print("\nTendência ESTÁVEL ou OSCILANTE na Intensidade Sonora\n")

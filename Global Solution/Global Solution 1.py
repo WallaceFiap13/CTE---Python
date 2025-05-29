@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # Link do Vídeo acelerado para caber em 3min - https://youtu.be/Of2EfVnZoaU
 # Link do Vídeo completo 5min 30s - https://youtu.be/aACt7kn6_xw
 # Link do Vídeo de teste do código - https://youtu.be/BZj5Y-UBUAc
+=======
+# Link do Vídeo - 
+>>>>>>> f2cc8a3777bc47510b66b5a8835d5e0b4fe1d75a
 # Wallace Queiroz de Lima - RM566217
 
 # Contadores

@@ -6,7 +6,7 @@ posicao = 1
 indice = 0
 
 for x in L:
-    if x == letra:
+    if x == letra: #Se o que está rodando na lista for igual o que a pessoa inputou
         print("\nLetra encontrada!")
         print(f"No índice {indice}")
         print(f"Na posição {posicao}")

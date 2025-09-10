@@ -5,10 +5,6 @@ while True:
     if Pesquisa == "Fim":
         break
     elif Pesquisa in Curso:
-<<<<<<< HEAD
         print(f"Valor = {Curso[Pesquisa][0]} // Período = {Curso[Pesquisa][1]}") # Como especificar um dado/valor específico dentro de uma chave
-=======
-        print(f"Valor = {Curso[Pesquisa][0]} // Período = {Curso[Pesquisa][1]}")
->>>>>>> 06f20446bd9e2eac0cf7136bc1e432ce7c5760b0
     else:
         print("Curso não encontrado")

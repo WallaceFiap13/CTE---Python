@@ -8,7 +8,6 @@ print(alunos["565540"])
 
 print("566217" in alunos) # Consulta para verificar se a chave está na tabela
 
-<<<<<<< HEAD
 print(alunos.keys()) # Retorna somente as chaves do dicionário
 
 print(alunos.values()) # Retorna os dados/ valores do dicionário

@@ -56,4 +56,3 @@ while True:
         print(f"Valor = {Curso[Pesquisa][0]} // Período = {Curso[Pesquisa][1]}")
     else:
         print("Curso não encontrado")
->>>>>>> 06f20446bd9e2eac0cf7136bc1e432ce7c5760b0

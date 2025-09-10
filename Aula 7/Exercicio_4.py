@@ -20,4 +20,4 @@ for chave, dados in list_cursos.items(): # Situação final dos cursos
     print(f"\nCurso: {chave}")
     print(f"Vagas Disponíveis: {dados[2]}")
     print(f"Período: {dados[1]}")
-    print(f"Valor da Mensalidade: R$ {dados[0]}"
+    print(f"Valor da Mensalidade: R$ {dados[0]}")

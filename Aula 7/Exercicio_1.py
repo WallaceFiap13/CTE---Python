@@ -14,9 +14,9 @@ print(alunos.values()) # Retorna os dados/ valores do dicionário
 
 del alunos["565540"] # Função de Delete
 
-print(alunos.keys())
+print(alunos.keys()) # Retorna somente as chaves do dicionário
 
-print(alunos.values())
+print(alunos.values()) # Retorna somente os dados/valores do dicionário
 
 del alunos["565540"]
 print(alunos)

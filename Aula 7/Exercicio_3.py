@@ -1,4 +1,6 @@
-list_cursos = {"Administração" : [2500.00, "2 Anos", 50] , "Mecatrônica" : [3000.00, "4 Anos", 40], "Relações Contábeis" : [3000.00, "2 Anos", 30]} # Dicionário
+list_cursos = {"Administração" : [2500.00, "2 Anos", 50] , 
+               "Mecatrônica" : [3000.00, "4 Anos", 40], 
+               "Relações Contábeis" : [3000.00, "2 Anos", 30]} # Dicionário
 
 vagas_ocp = [["Administração", 10], ["Mecatrônica", 5], ["Relações Contábeis", 15]] # Lista
 

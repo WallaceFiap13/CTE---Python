@@ -43,7 +43,7 @@ while Contador < 3:
                 Notas["GSs"].append(Nota)
 
     if Contador == 1:        # Calculo da média do primeiro semestre
-        Media_1 = (((sum(Notas["CPs_1Sem"]) - min(Notas["CPs_1Sem"])) + sum(Notas["CSs_1Sem"])) / 4) * 0.4 + Notas["GSs"][0] * 0.
+        Media_1 = (((sum(Notas["CPs_1Sem"]) - min(Notas["CPs_1Sem"])) + sum(Notas["CSs_1Sem"])) / 4) * 0.4 + Notas["GSs"][0] * 0.6
         
     elif Contador == 2:     # Calculo da média do segundo semestre
         Media_2 = (((sum(Notas["CPs_2Sem"]) - min(Notas["CPs_2Sem"])) + sum(Notas["CSs_2Sem"])) / 4) * 0.4 + Notas["GSs"][1] * 0.6

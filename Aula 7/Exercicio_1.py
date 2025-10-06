@@ -4,7 +4,7 @@ print(alunos)
 alunos["565540"][0] = "Ana" # Substituir um valor dentro de uma chave específica em um índice específico
 print(alunos)
 
-print(alunos["565540"])
+print(alunos["565540"]) # Printa chave específica
 
 print("566217" in alunos) # Consulta para verificar se a chave está na tabela
 
@@ -12,11 +12,7 @@ print(alunos.keys()) # Retorna somente as chaves do dicionário
 
 print(alunos.values()) # Retorna os dados/ valores do dicionário
 
-del alunos["565540"] # Função de Delete
-
-print(alunos.keys()) # Retorna somente as chaves do dicionário
-
-print(alunos.values()) # Retorna somente os dados/valores do dicionário
-
-del alunos["565540"]
+alunos["565540"].append("15 Faltas") # Adiciona Valor a uma Chave
 print(alunos)
+
+del alunos["565540"] # Função de Delete

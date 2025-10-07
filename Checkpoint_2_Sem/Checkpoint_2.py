@@ -1,4 +1,6 @@
-Avaliacao = ["CP1","CP2","CP3", "Sprint1", "Sprint2", "GS"]  # Lista para loop
+# Wallace Queiroz de Lima - RM566217
+
+Avaliacao = ["CP1","CP2","CP3", "Sprint1", "Sprint2", "GS"]  # Lista para as atividades
 
 Notas = {              # Dicionário para armazenar notas
     "CPs_1Sem" : [],
@@ -8,25 +10,20 @@ Notas = {              # Dicionário para armazenar notas
     "GSs" : []
 }
 
-Contador = 1 # COntador para auxiliar no loop
+Materia = input("\nInsira o nome da 'matéria' que deseja calcular a nota = ")  # Input da matéria
 
-while Contador < 3:
-    if Contador == 1:
-        print("\n1° Semestre")
-    
-    if Contador == 2:
-        print("\n2° Semestre")
-        
-    for x in Avaliacao:
-        
-        while True:
-            Nota = float(input(f"\nInsira a nota do(a) {x} = "))
-            if Nota >= 0 and Nota <= 10:  # Restringe a nota inserida estar entre 0 e 10
-                break
-            else:
-                print("Input incorreto - a nota deve estar entre 0 e 10 - tente novamente")
-        
-        if Contador == 1:                 # Indicia primeiro semestre
+for y in range(2):     # For do semestre
+    if y == 0:         # 1° Semestre
+        print(f"\n1º Semestre")
+
+        for x in Avaliacao:
+            while True:
+                Nota = float(input(f"\nInsira a nota do(a) {x} = "))
+                if Nota >= 0 and Nota <= 10:  # Restringe a nota inserida estar entre 0 e 10
+                    break
+                else:
+                    print("Input incorreto - a nota deve estar entre 0 e 10 - tente novamente")
+            
             if Avaliacao.index(x) < 3:
                 Notas["CPs_1Sem"].append(Nota)
             elif Avaliacao.index(x) < 5:
@@ -34,7 +31,19 @@ while Contador < 3:
             else:
                 Notas["GSs"].append(Nota)
 
-        elif Contador == 2:               # Indicia segundo semestre
+        Media_1 = (((sum(Notas["CPs_1Sem"]) - min(Notas["CPs_1Sem"])) + sum(Notas["CSs_1Sem"])) / 4) * 0.4 + Notas["GSs"][0] * 0.6   # Calcula a média do 1° Semestre
+        
+    elif y == 1:      # 2° Semestre
+        print(f"\n2º Semestre")
+
+        for x in Avaliacao:
+            while True:
+                Nota = float(input(f"\nInsira a nota do(a) {x} = "))
+                if Nota >= 0 and Nota <= 10:  # Restringe a nota inserida estar entre 0 e 10
+                    break
+                else:
+                    print("Input incorreto - a nota deve estar entre 0 e 10 - tente novamente")
+
             if Avaliacao.index(x) < 3:
                 Notas["CPs_2Sem"].append(Nota)
             elif Avaliacao.index(x) < 5:
@@ -42,14 +51,20 @@ while Contador < 3:
             else:
                 Notas["GSs"].append(Nota)
 
-    if Contador == 1:        # Calculo da média do primeiro semestre
-        Media_1 = (((sum(Notas["CPs_1Sem"]) - min(Notas["CPs_1Sem"])) + sum(Notas["CSs_1Sem"])) / 4) * 0.4 + Notas["GSs"][0] * 0.6
+        Media_2 = (((sum(Notas["CPs_2Sem"]) - min(Notas["CPs_2Sem"])) + sum(Notas["CSs_2Sem"])) / 4) * 0.4 + Notas["GSs"][1] * 0.6   # Calcula a média do 2° Semestre
         
-    elif Contador == 2:     # Calculo da média do segundo semestre
-        Media_2 = (((sum(Notas["CPs_2Sem"]) - min(Notas["CPs_2Sem"])) + sum(Notas["CSs_2Sem"])) / 4) * 0.4 + Notas["GSs"][1] * 0.6
-
-    Contador += 1
-
+        
 Nota_Final = (Media_1*0.4 + Media_2*0.6)
 
+frequencia = int(input(f"\nInsira a frequência da matéria '{Materia}' (em porcentagem) = "))
+
 print(f"\nA nota final é : {Nota_Final:.1f}")
+
+if Nota_Final >= 6 and frequencia >= 75:
+    print(f"\nSua situação na matéria '{Materia}' é = Aprovado")
+
+elif Nota_Final <6 and Nota_Final >=4 and frequencia >= 75:
+    print(f"\nSua situação na matéria '{Materia}' é = Exame")
+
+else:
+    print(f"\nSua situação na matéria '{Materia}' é = Reprovado")

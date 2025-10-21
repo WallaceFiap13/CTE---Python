@@ -1,4 +1,5 @@
 from Funções_ex1_2 import *
+
 print(par_ou_impar(2))
 print(par_ou_impar(3))
 print(par_ou_impar(4))
@@ -9,3 +10,9 @@ print(minimo(2,1))
 
 print(múltiplos(8,4))
 print(múltiplos(7,3))
+
+print(área_quadrado(4))
+print(área_quadrado(9))
+
+print(área_triângulo(6, 9))
+print(área_triângulo(5, 8))

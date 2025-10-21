@@ -25,3 +25,8 @@ def minimo(x,y):
 def múltiplos(x,y):
     return x % y == 0
         
+def área_quadrado(L):
+    return L**2
+
+def área_triângulo(b,h):
+    return (b*h)/2

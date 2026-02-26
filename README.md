@@ -1,2 +1,4 @@
 # CTE - Python
-Exercícios da aula de Computational Thinking for Engineering em Python
+## Computational Thinking for Engineering em Python
+
+Exemplos e exercícios realizados em aula no curso de Engenharia da Computação na FIAP - 1° & 2° Semestre

@@ -1,4 +1,4 @@
-from Funções_ex1_2 import *
+from Funcao_1 import *
 
 print(par_ou_impar(2))
 print(par_ou_impar(3))

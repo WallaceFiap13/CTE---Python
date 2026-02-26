@@ -1,4 +1,4 @@
-from Funções_ex1_2 import * # se colocar o nome específico da função ele importa uma função só
+from Funcao_1 import * # se colocar o nome específico da função ele importa uma função só
 
 operacao = input("Escolha a operação a se fazer (soma, subtracao, multiplicacao, divisao) = ")
 n1 = float(input("Insira o 1° Número = "))
